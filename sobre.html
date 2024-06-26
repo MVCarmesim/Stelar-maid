@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Stellar Maid Studios</title>
+    <meta name="description" content="Saiba mais sobre a Stellar Maid Studios, uma editora de jogos indie">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+            </nav>
+        </header>
+        <section class="principal">
+            <section class="botoes">
+                <a href="https://store.steampowered.com/search/" class="container__botao">Página na Steam</a>
+                <a href="https://linkedin.com" class="botao_secundario">Página do LinkedIn</a>
+            </section>
+        </section>
+    </div>
+    <section class="container secundario">
+        <div class="container__descrição2">
+            <h1 class="titulo">Sobre a Stellar Maid Studios</h1>
+            <p class="texto">Stellar Maid Studios é uma editora de jogos indie liderada por uma equipe apaixonada por criar
+                experiências únicas e envolventes para os amantes de jogos. Nossa missão é desenvolver jogos que
+                combinem narrativa cativante, design inovador e jogabilidade emocionante.</p>
+    </section>
+        </div>
+        <section class="carousel">
+            <button class="carousel__button carousel__button--left" id="prevButton">←</button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <a href="royal_affection.html">
+                            <img src="assets/Royal Affection.png" alt="Royal Affection" class="carousel__image"/>
+                        </a>
+                        <div class="carousel__text">
+                            <h2 class="titulo">Royal Affection</h2>
+                            <p class="texto">Romance, magia e combate. Mais informações em breve</p>
+                        </div>
+                    </li>
+                    <li class="carousel__slide">
+                        <a href="loves_odyssey.html">
+                            <img src="assets/Love's Odyssey.png" alt="Love's Odyssey" class="carousel__image"/> 
+                        </a>
+                        <div class="carousel__text">
+                            <h2 class="titulo">Love's Odyssey</h2>
+                            <p class="texto">Romance. Mais informações em breve</p>
+                        </div>
+                    </li>
+                    <li class="carousel__slide">
+                        <a href="starlit_romance.html">
+                            <img src="assets/Starlit Romance.png" alt="Starlit Romance" class="carousel__image"/>
+                        </a>
+                        <div class="carousel__text">
+                            <h2 class="titulo">Starlit Romance</h2>
+                            <p class="texto">Romance, delinquentes e combate. Mais informações em breve</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel__button carousel__button--right" id="nextButton">→</button>
+        </section>
+    
+        <footer class="footer">
+            <div class="footer__contact">
+                <p>Entre em contato conosco:</p>
+                <span onclick="window.location='mailto:stellarmaidstudios@hotmail.com';" class="footer__contact__email">stellarmaidstudios@hotmail.com</span>
+            </div>
+            <div class="footer__social">
+                <p class="siga">Nos siga em nossas redes sociais:</p>
+                <div class="footer__social__links">
+                    <a href="https://www.facebook.com" target="_blank" class="footer__social__links">Facebook</a>
+                    <a href="https://www.twitter.com" target="_blank" class="footer__social__links">Twitter</a>
+                    <a href="https://www.youtube.com" target="_blank" class="footer__social__links">YouTube</a>
+                    <a href="https://www.instagram.com" target="_blank" class="footer__social__links">Instagram</a>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="scripts.js"></script>
+</body>
+
+</html>
